@@ -15,8 +15,12 @@
     <a href="#" class="logo">Bix<span>Aplicaciones</span></a>
     <nav class="nav" id="nav">
       <a href="#servicios">Servicios</a>
+      <a href="#proceso">Cómo trabajamos</a>
       <a href="#proyectos">Proyectos</a>
+      <a href="#clientes">Clientes</a>
+      <a href="#testimonios">Testimonios</a>
       <a href="#nosotros">Nosotros</a>
+      <a href="#faq">Preguntas</a>
       <a href="#contacto" class="btn btn-nav">Contacto</a>
     </nav>
     <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">☰</button>
@@ -25,11 +29,17 @@
 
 <section class="hero">
   <div class="container hero-inner">
+    <span class="hero-badge">🚀 +10 años transformando negocios con software</span>
     <h1>Convertimos problemas de negocio en <span>soluciones de software</span></h1>
-    <p class="hero-sub">Desarrollamos sistemas a medida, aplicaciones web y soluciones digitales pensadas para las necesidades reales de cada cliente.</p>
+    <p class="hero-sub">Desarrollamos sistemas a medida, aplicaciones web y soluciones digitales pensadas para las necesidades reales de cada cliente. Sin plantillas genéricas: cada proyecto se diseña a partir de tu problema, no al revés.</p>
     <div class="hero-actions">
       <a href="#contacto" class="btn btn-primary">Contanos tu proyecto</a>
       <a href="#proyectos" class="btn btn-outline">Ver soluciones</a>
+    </div>
+    <div class="hero-tags">
+      <span>✔ Presupuesto sin cargo</span>
+      <span>✔ Reunión inicial gratuita</span>
+      <span>✔ Soporte post-entrega</span>
     </div>
   </div>
 </section>
@@ -39,12 +49,42 @@
     <div class="stat"><strong>+10</strong><span>años de experiencia</span></div>
     <div class="stat"><strong>+30</strong><span>clientes acompañados</span></div>
     <div class="stat"><strong>+50</strong><span>proyectos entregados</span></div>
+    <div class="stat"><strong>+95%</strong><span>clientes que repiten</span></div>
     <div class="stat"><strong>100%</strong><span>soluciones a medida</span></div>
   </div>
 </section>
 
+<section id="clientes" class="logos-section">
+  <div class="container">
+    <p class="logos-title">Empresas que confiaron en nosotros</p>
+  </div>
+  <div class="logos-carousel">
+    <div class="logos-track">
+      <div class="logo-item">Cliente A</div>
+      <div class="logo-item">Cliente B</div>
+      <div class="logo-item">Cliente C</div>
+      <div class="logo-item">Cliente D</div>
+      <div class="logo-item">Cliente E</div>
+      <div class="logo-item">Cliente F</div>
+      <div class="logo-item">Cliente G</div>
+      <div class="logo-item">Cliente H</div>
+      <!-- duplicado para loop infinito -->
+      <div class="logo-item">Cliente A</div>
+      <div class="logo-item">Cliente B</div>
+      <div class="logo-item">Cliente C</div>
+      <div class="logo-item">Cliente D</div>
+      <div class="logo-item">Cliente E</div>
+      <div class="logo-item">Cliente F</div>
+      <div class="logo-item">Cliente G</div>
+      <div class="logo-item">Cliente H</div>
+    </div>
+  </div>
+  <p class="logos-note">* Reemplazá estos bloques por los logos reales de tus clientes (imágenes PNG/SVG).</p>
+</section>
+
 <section id="servicios" class="section">
   <div class="container">
+    <span class="eyebrow">Servicios</span>
     <h2 class="section-title">¿En qué te podemos ayudar?</h2>
     <p class="section-sub">No vendemos tecnología, resolvemos problemas de negocio con la tecnología adecuada para cada caso.</p>
     <div class="cards-grid">
@@ -57,6 +97,11 @@
         <div class="card-icon">🌐</div>
         <h3>Aplicaciones web</h3>
         <p>Plataformas y portales modernos, rápidos y accesibles desde cualquier dispositivo.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">📱</div>
+        <h3>Apps móviles</h3>
+        <p>Aplicaciones para que tu negocio esté disponible en el celular de tus clientes o empleados.</p>
       </div>
       <div class="card">
         <div class="card-icon">🔗</div>
@@ -78,29 +123,132 @@
         <h3>Modernización</h3>
         <p>Actualizamos sistemas antiguos hacia soluciones más ágiles, seguras y escalables.</p>
       </div>
+      <div class="card">
+        <div class="card-icon">🤖</div>
+        <h3>Automatización</h3>
+        <p>Eliminamos tareas repetitivas y manuales mediante procesos automatizados a medida.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">☁️</div>
+        <h3>Cloud &amp; hosting</h3>
+        <p>Ponemos tu sistema en la nube con infraestructura segura, escalable y monitoreada.</p>
+      </div>
     </div>
   </div>
 </section>
 
-<section id="proyectos" class="section section-alt">
+<section id="proceso" class="section section-alt">
   <div class="container">
+    <span class="eyebrow">Metodología</span>
+    <h2 class="section-title">Cómo trabajamos</h2>
+    <p class="section-sub">Un proceso simple y transparente, pensado para que sepas en qué etapa está tu proyecto en todo momento.</p>
+    <div class="process-grid">
+      <div class="process-step">
+        <div class="step-number">1</div>
+        <h3>Escuchamos</h3>
+        <p>Nos reunimos con vos para entender el problema real de tu negocio, sin tecnicismos.</p>
+      </div>
+      <div class="process-step">
+        <div class="step-number">2</div>
+        <h3>Proponemos</h3>
+        <p>Diseñamos una solución concreta, con alcance, tiempos y costos claros desde el inicio.</p>
+      </div>
+      <div class="process-step">
+        <div class="step-number">3</div>
+        <h3>Desarrollamos</h3>
+        <p>Construimos el sistema en etapas cortas, mostrando avances reales de forma periódica.</p>
+      </div>
+      <div class="process-step">
+        <div class="step-number">4</div>
+        <h3>Entregamos</h3>
+        <p>Ponemos el sistema en funcionamiento, con capacitación incluida para tu equipo.</p>
+      </div>
+      <div class="process-step">
+        <div class="step-number">5</div>
+        <h3>Acompañamos</h3>
+        <p>Seguimos disponibles para soporte, ajustes y nuevas mejoras a futuro.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="proyectos" class="section">
+  <div class="container">
+    <span class="eyebrow">Casos de éxito</span>
     <h2 class="section-title">Soluciones que hicimos realidad</h2>
     <p class="section-sub">Algunos ejemplos del tipo de problemas que resolvemos junto a nuestros clientes.</p>
     <div class="cases-grid">
       <div class="case-card">
         <span class="case-tag">Retail</span>
         <h3>Gestión de pedidos unificada</h3>
-        <p>Un comercio necesitaba centralizar pedidos de distintos canales de venta. Desarrollamos una plataforma que unificó todo en un solo lugar, reduciendo errores y tiempos de entrega.</p>
+        <p><strong>Problema:</strong> pedidos dispersos en múltiples canales de venta, generando errores y demoras.</p>
+        <p><strong>Solución:</strong> plataforma que centralizó todos los canales en un solo panel de gestión.</p>
+        <p class="case-result">📊 Resultado: -40% de errores en pedidos, entregas más rápidas.</p>
       </div>
       <div class="case-card">
         <span class="case-tag">Logística</span>
         <h3>Seguimiento en tiempo real</h3>
-        <p>Creamos un sistema de seguimiento de envíos que permitió a los clientes de una empresa de logística conocer el estado de su pedido en todo momento.</p>
+        <p><strong>Problema:</strong> clientes sin visibilidad del estado de sus envíos, generando reclamos constantes.</p>
+        <p><strong>Solución:</strong> sistema de tracking en tiempo real accesible desde el celular.</p>
+        <p class="case-result">📊 Resultado: -70% de consultas al soporte por estado de envío.</p>
       </div>
       <div class="case-card">
         <span class="case-tag">Servicios profesionales</span>
         <h3>Automatización administrativa</h3>
-        <p>Reemplazamos planillas y procesos manuales por un sistema a medida que redujo el tiempo administrativo de un estudio en más del 60%.</p>
+        <p><strong>Problema:</strong> planillas y procesos manuales que consumían horas todos los días.</p>
+        <p><strong>Solución:</strong> sistema a medida que automatizó la carga y el seguimiento de tareas.</p>
+        <p class="case-result">📊 Resultado: -60% del tiempo administrativo mensual.</p>
+      </div>
+      <div class="case-card">
+        <span class="case-tag">Salud</span>
+        <h3>Turnos y agenda online</h3>
+        <p><strong>Problema:</strong> agenda de turnos manejada por teléfono, con superposiciones frecuentes.</p>
+        <p><strong>Solución:</strong> portal de reserva de turnos online con recordatorios automáticos.</p>
+        <p class="case-result">📊 Resultado: -50% de ausencias a citas agendadas.</p>
+      </div>
+      <div class="case-card">
+        <span class="case-tag">Educación</span>
+        <h3>Plataforma de gestión académica</h3>
+        <p><strong>Problema:</strong> seguimiento de alumnos y calificaciones disperso en distintos archivos.</p>
+        <p><strong>Solución:</strong> sistema centralizado de gestión académica accesible para docentes y familias.</p>
+        <p class="case-result">📊 Resultado: comunicación un 3x más ágil entre docentes y familias.</p>
+      </div>
+      <div class="case-card">
+        <span class="case-tag">Industria</span>
+        <h3>Control de inventario inteligente</h3>
+        <p><strong>Problema:</strong> falta de visibilidad del stock real en distintos depósitos.</p>
+        <p><strong>Solución:</strong> sistema de control de inventario con alertas automáticas de stock mínimo.</p>
+        <p class="case-result">📊 Resultado: 0 quiebres de stock desde su implementación.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="testimonios" class="section section-alt">
+  <div class="container">
+    <span class="eyebrow">Testimonios</span>
+    <h2 class="section-title">Lo que dicen nuestros clientes</h2>
+    <div class="testimonials-grid">
+      <div class="testimonial-card">
+        <p>"El sistema que desarrollaron nos permitió ordenar procesos que veníamos manejando de forma manual desde hace años. Excelente acompañamiento."</p>
+        <div class="testimonial-author">
+          <div class="avatar">MG</div>
+          <div><strong>María G.</strong><span>Gerente de Operaciones, Retail</span></div>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <p>"Entendieron nuestro problema desde el primer día y nos propusieron una solución simple y efectiva, sin vueltas."</p>
+        <div class="testimonial-author">
+          <div class="avatar">JL</div>
+          <div><strong>Juan L.</strong><span>Director, Logística</span></div>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <p>"Lo que más valoro es el soporte post-entrega. Siempre están disponibles ante cualquier ajuste que necesitamos."</p>
+        <div class="testimonial-author">
+          <div class="avatar">SP</div>
+          <div><strong>Sofía P.</strong><span>Administración, Servicios Profesionales</span></div>
+        </div>
       </div>
     </div>
   </div>
@@ -108,36 +256,105 @@
 
 <section id="nosotros" class="section">
   <div class="container about-inner">
-    <div class="about-text">
-      <h2 class="section-title">Sobre Bix Aplicaciones</h2>
-      <p>Somos un equipo con años de trayectoria desarrollando software para empresas de distintos rubros. Creemos que la tecnología tiene que adaptarse al negocio, y no al revés.</p>
-      <p>Trabajamos de forma cercana con cada cliente, entendiendo primero el problema antes de proponer la solución. El resultado: proyectos que realmente se usan y generan valor.</p>
+    <span class="eyebrow">Quiénes somos</span>
+    <h2 class="section-title">Sobre Bix Aplicaciones</h2>
+    <p>Somos un equipo con años de trayectoria desarrollando software para empresas de distintos rubros. Creemos que la tecnología tiene que adaptarse al negocio, y no al revés.</p>
+    <p>Trabajamos de forma cercana con cada cliente, entendiendo primero el problema antes de proponer la solución. El resultado: proyectos que realmente se usan y generan valor.</p>
+    <div class="values-grid">
+      <div class="value-item">
+        <h4>🎯 Enfoque en resultados</h4>
+        <p>Medimos el éxito de un proyecto por el impacto real en tu negocio, no por la tecnología usada.</p>
+      </div>
+      <div class="value-item">
+        <h4>🤝 Cercanía</h4>
+        <p>Trabajamos codo a codo con vos durante todo el proyecto, con comunicación clara y constante.</p>
+      </div>
+      <div class="value-item">
+        <h4>🔒 Compromiso</h4>
+        <p>Cumplimos los tiempos acordados y nos hacemos responsables de cada entrega.</p>
+      </div>
+      <div class="value-item">
+        <h4>♻️ Mejora continua</h4>
+        <p>Un proyecto no termina en la entrega: seguimos optimizando junto a vos.</p>
+      </div>
     </div>
   </div>
 </section>
 
-<section id="contacto" class="section section-alt">
+<section id="faq" class="section section-alt">
+  <div class="container faq-inner">
+    <span class="eyebrow">Preguntas frecuentes</span>
+    <h2 class="section-title">Resolvemos tus dudas</h2>
+    <div class="faq-list">
+      <div class="faq-item">
+        <button class="faq-question">¿Cuánto tiempo lleva desarrollar un sistema a medida? <span>+</span></button>
+        <div class="faq-answer"><p>Depende de la complejidad del proyecto. Sistemas simples pueden estar en 4-6 semanas, mientras que proyectos más grandes se dividen en etapas entregables cada 2-3 semanas.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">¿Ofrecen soporte después de la entrega? <span>+</span></button>
+        <div class="faq-answer"><p>Sí, todos nuestros proyectos incluyen un período de soporte post-entrega, y ofrecemos planes de mantenimiento continuo para seguir mejorando el sistema.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">¿Trabajan con empresas pequeñas o solo grandes clientes? <span>+</span></button>
+        <div class="faq-answer"><p>Trabajamos con empresas de todos los tamaños. Adaptamos el alcance del proyecto al presupuesto y necesidades reales de cada cliente.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">¿Cómo se calcula el costo de un proyecto? <span>+</span></button>
+        <div class="faq-answer"><p>Luego de la reunión inicial gratuita, armamos una propuesta con alcance y costo cerrado, para que sepas exactamente qué vas a recibir.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">¿Pueden modernizar un sistema que ya tenemos? <span>+</span></button>
+        <div class="faq-answer"><p>Sí, es una de nuestras especialidades. Analizamos el sistema actual y proponemos un plan de modernización por etapas, sin frenar tu operación.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contacto" class="section cta-section">
   <div class="container contact-inner">
-    <h2 class="section-title">Hablemos de tu proyecto</h2>
-    <p class="section-sub">Contanos qué necesitás y te ayudamos a encontrar la mejor solución.</p>
+    <span class="eyebrow eyebrow-light">Contacto</span>
+    <h2 class="section-title section-title-light">Hablemos de tu proyecto</h2>
+    <p class="section-sub section-sub-light">Contanos qué necesitás y te ayudamos a encontrar la mejor solución. Primera reunión sin cargo.</p>
     <form class="contact-form" id="contactForm">
       <input type="text" name="nombre" placeholder="Tu nombre" required>
       <input type="email" name="email" placeholder="Tu email" required>
+      <input type="text" name="empresa" placeholder="Empresa (opcional)">
       <textarea name="mensaje" placeholder="Contanos tu idea o problema a resolver" rows="5" required></textarea>
       <button type="submit" class="btn btn-primary">Enviar mensaje</button>
     </form>
     <div class="contact-info">
       <p>📧 contacto@bixaplicaciones.com</p>
       <p>📱 +54 9 11 0000-0000</p>
+      <p>📍 Argentina</p>
     </div>
   </div>
 </section>
 
 <footer class="site-footer">
   <div class="container footer-inner">
+    <div class="footer-col">
+      <span class="logo footer-logo">Bix<span>Aplicaciones</span></span>
+      <p>Software a medida para resolver problemas reales de negocio.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Navegación</h4>
+      <a href="#servicios">Servicios</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#contacto">Contacto</a>
+    </div>
+    <div class="footer-col">
+      <h4>Contacto</h4>
+      <span>contacto@bixaplicaciones.com</span>
+      <span>+54 9 11 0000-0000</span>
+    </div>
+  </div>
+  <div class="container footer-bottom">
     <span>© 2025 Bix Aplicaciones. Todos los derechos reservados.</span>
   </div>
 </footer>
+
+<button id="backToTop" class="back-to-top" aria-label="Volver arriba">↑</button>
 
 <script src="script.js"></script>
 </body>
